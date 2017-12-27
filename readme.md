@@ -9,13 +9,13 @@ handleItemRemoved() event to this server, every time a new item is added or a pr
 #### handleItemRemoved
 This method is called every time an item is removed from the fridge
 ```javascript
-function handleItemRemoved( itemUUID );
+function handleItemRemoved( itemObj );
 ```
 
 #### handleItemAdded
 This method is called every time an item is stored in the fridge
 ```javascript
-function handleItemAdded( itemType, itemUUID, name, fillFactor );
+function handleItemAdded( itemObj );
 ```
 
 ### These are the query methods for the fridge to be able to display alerts and create shopping lists for the fridge user.
